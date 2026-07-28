@@ -1,15 +1,15 @@
+```markdown
 # 📖 Complete Linux Disk Management, LVM Architecture, & Migration Guide
 
-A comprehensive tutorial covering LVM concepts, live disk expansion, and step-by-step system migration for Enterprise Linux systems (**RHEL, CentOS, Rocky Linux, AlmaLinux, Ubuntu**).
+A comprehensive, production-grade guide covering LVM concepts, live disk expansion, and step-by-step system migration for Enterprise Linux systems (**RHEL, CentOS, Rocky Linux, AlmaLinux, Ubuntu**).
 
 ---
 
 ## 🎯 Table of Contents
-
-1. [Understanding LVM Architecture](https://www.google.com/search?q=%231-understanding-lvm-architecture)
-2. [Scenario A: Extending an Existing Disk Live](https://www.google.com/search?q=%232-scenario-a-extending-an-existing-disk-live)
-3. [Scenario B: Complete 0-to-100 System & DB Migration](https://www.google.com/search?q=%233-scenario-b-complete-0-to-100-system--db-migration)
-4. [Cheat Sheet & Troubleshooting Commands](https://www.google.com/search?q=%234-cheat-sheet--troubleshooting-commands)
+1. [Understanding LVM Architecture](#1-understanding-lvm-architecture)
+2. [Scenario A: Extending an Existing Disk Live](#2-scenario-a-extending-an-existing-disk-live)
+3. [Scenario B: Complete 0-to-100 System & DB Migration](#3-scenario-b-complete-0-to-100-system--db-migration)
+4. [Cheat Sheet & Troubleshooting Commands](#4-cheat-sheet--troubleshooting-commands)
 
 ---
 
@@ -17,7 +17,7 @@ A comprehensive tutorial covering LVM concepts, live disk expansion, and step-by
 
 Logical Volume Manager (LVM) abstracts physical storage into flexible volumes. Understanding its three core layers is essential:
 
-```
+```text
 +------------------------------------------------------------------+
 |                    Physical Storage (/dev/sdb)                   |
 +------------------------------------------------------------------+
@@ -270,3 +270,13 @@ poweroff
 | `df -Th` | Display disk usage with human-readable values and filesystem types |
 | `xfs_growfs /mountpoint` | Manually expand an XFS filesystem |
 | `resize2fs /dev/VG/LV` | Manually expand an EXT4 filesystem |
+
+---
+
+## 📝 License
+
+Distributed under the MIT License. Feel free to modify and use in enterprise environments!
+
+```
+
+```
