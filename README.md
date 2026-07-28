@@ -1,5 +1,3 @@
----
-
 # 🚀 Safe Linux System & LVM Migration Guide
 
 > A comprehensive, fail-safe guide to migrating a live RHEL/CentOS/Rocky Linux system (including **Zabbix** & **MySQL/MariaDB**) to a new, larger LVM disk without encountering `grub rescue`, file corruption, or SELinux permission errors.
